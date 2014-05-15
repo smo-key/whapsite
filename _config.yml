@@ -1,0 +1,3 @@
+source: .
+include: ['.htaccess', 'design']
+exclude: ['design']
