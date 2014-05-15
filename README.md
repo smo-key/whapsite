@@ -1,4 +1,4 @@
 WHAP-Site
 =========
 
-World History Adventure
+Choose Your Own Adventure: Mongol Invasion of Japan
