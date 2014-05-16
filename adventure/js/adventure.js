@@ -8,7 +8,7 @@ $(document).ready(function () {
 
 function firstLoad()
 {
-  
+  $(".header").stick_in_parent();
 }
 
 function updateContainer() {
