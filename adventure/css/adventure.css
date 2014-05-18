@@ -16,6 +16,7 @@ body {
   overflow-y: scroll;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1em;
+  display: block;
 }
 
 p {
@@ -58,8 +59,9 @@ h2, .h2 {
 /*Content Title*/
 h3, .h3 {
   font-family: 'Bangers', cursive;
-  font-size: 4.0em;
+  font-size: 6.0em;
   color: #fff;
+  text-shadow: 0 8px 3px rgba(0,0,0,.5);
 }
 
 /*Content Text*/
@@ -68,6 +70,7 @@ p, .p {
   font-size: 2.5em;
   color: #fff;
   line-height: 1em;
+  text-shadow: 0 3px 6px rgba(0,0,0,.5);
 }
 
 /***** ASSETS *****/
@@ -85,7 +88,62 @@ p, .p {
 #stuckheader {padding-top: 8px;
   padding-bottom: 16px;}
 
-.story { height: 350px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; border-top: 1px solid rgba(255,255,255,0.3); border-bottom: 1px solid rgba(0,0,0,0.4); box-shadow: 0 0 50px rgba(0,0,0,0.8);}
+.slidetext-center
+{
+  padding: 0 0px 0 0px;
+  display: block;   
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  font-weight: bold;
+  top: 50%;
+  transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+}
+.slidetext-content 
+{
+  padding: 20px 20px 20px 20px;
+  display: block;   
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  font-weight: bold;
+  background-color: rgba(0,0,0,0.25);
+}
+.slidetext-static
+{
+  padding: 20px 20px 20px 20px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: top;
+  position: relative;
+  font-weight: bold;
+  background-color: rgba(0,0,0,0.25);
+}
+
+.slide {
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  text-align: center;
+  vertical-align: middle;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat
+  position: relative;
+}
+
+.color-img {
+  display: block!important;
+  position: static!important;
+}
+
+.story { height: 350px; padding: 0; margin: 0; width: 100%; position: relative; margin: 0 auto; border-top: 1px solid rgba(255,255,255,0.3); border-bottom: 1px solid rgba(0,0,0,0.4); box-shadow: 0 0 50px rgba(0,0,0,0.8);}
 
 #first { background: url(../img/Japanese%20Warrior%20Will%20Prevail%202.jpg) 50% 0 no-repeat fixed; background-size: cover; }
 #first article { background: rgba(0,0,0,0.3);

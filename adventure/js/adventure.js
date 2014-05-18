@@ -17,11 +17,10 @@ function firstLoad()
           var element = $(this);
           px.activateEffect(element);
   });
-  
 }
 
 function updateContainer() {
-  
+
 }
 
 window.requestAnimFrame = (function(){
