@@ -8,7 +8,7 @@ $(document).ready(function () {
 
 function firstLoad()
 {
-  //$(".header").stick_in_parent();
+  $(".header").stick_in_parent();
   
   //Init Parallax effect
   var px = new Parallax.Parallax();
