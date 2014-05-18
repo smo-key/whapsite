@@ -90,18 +90,17 @@ p, .p {
 
 .slidetext-center
 {
-  padding: 0 0px 0 0px;
   display: block;   
   text-align: center;
   vertical-align: middle;
   position: relative;
   font-weight: bold;
   top: 50%;
-  transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
+  transform: translateY(-50%) translateY(-16px);
+  -moz-transform: translateY(-50%) translateY(-16px);
+  -webkit-transform: translateY(-50%) translateY(-16px);
+  -o-transform: translateY(-50%) translateY(-16px);
+  -ms-transform: translateY(-50%) translateY(-16px);
 }
 .slidetext-content 
 {
@@ -111,7 +110,6 @@ p, .p {
   vertical-align: middle;
   position: relative;
   font-weight: bold;
-  background-color: rgba(0,0,0,0.25);
 }
 .slidetext-static
 {
@@ -121,7 +119,6 @@ p, .p {
   vertical-align: top;
   position: relative;
   font-weight: bold;
-  background-color: rgba(0,0,0,0.25);
 }
 
 .slide {
@@ -129,28 +126,23 @@ p, .p {
   right: 0px;
   top: 0px;
   bottom: 0px;
+  margin: none;
+  padding: none;
   text-align: center;
   vertical-align: middle;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
   position: relative;
 }
+#odd { border-top: 1px solid rgba(255,255,255,0.3); border-bottom: 1px solid rgba(0,0,0,0.4); box-shadow: 0 0 50px rgba(0,0,0,0.8); }
+#even { box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
 
 .color-img {
   display: block!important;
   position: static!important;
 }
-
-.story { height: 350px; padding: 0; margin: 0; width: 100%; position: relative; margin: 0 auto; border-top: 1px solid rgba(255,255,255,0.3); border-bottom: 1px solid rgba(0,0,0,0.4); box-shadow: 0 0 50px rgba(0,0,0,0.8);}
-
-#first { background: url(../img/Japanese%20Warrior%20Will%20Prevail%202.jpg) 50% 0 no-repeat fixed; background-size: cover; }
-#first article { background: rgba(0,0,0,0.3);
-  color: #fff; width: 100%; margin: auto auto auto auto; padding: 10px 50px 10px 50px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); position: relative;
-}
-#first article p { margin-bottom: 25px; }
-#first article a { color: #ff0;}
 
 outer {
   padding: 10px 0 10px 0;
