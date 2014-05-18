@@ -12,9 +12,8 @@ body {
 body {
   color: #000;
   text-align: center;
-  //text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
   overflow-y: scroll;
-  overflow: -moz-scrollbars-vertical;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1em;
 }
@@ -39,25 +38,36 @@ p a:hover {
 
 p a:active {}
 
+/*Title Header*/
 h1, .h1 {
   font-family: 'Bangers', cursive;
-  font-size: 4.0em;
+  font-size: 3.5em;
   line-height: 0em;
   color: #fff;
 }
 
+/*Title Sub-Header*/
 h2, .h2 {
   font-family: 'Bangers', cursive;
-  font-size: 2.5em;
+  font-size: 2.0em;
   line-height: 0em;
   color: #fff;
   text-align: center;
 }
 
+/*Content Title*/
 h3, .h3 {
   font-family: 'Bangers', cursive;
-  font-size: 3.0em;
-  color: #000;
+  font-size: 4.0em;
+  color: #fff;
+}
+
+/*Content Text*/
+p, .p {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 2.5em;
+  color: #fff;
+  line-height: 1em;
 }
 
 /***** ASSETS *****/
@@ -76,22 +86,16 @@ h3, .h3 {
   padding-bottom: 16px;}
 
 .story { height: 350px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; border-top: 1px solid rgba(255,255,255,0.3); border-bottom: 1px solid rgba(0,0,0,0.4); box-shadow: 0 0 50px rgba(0,0,0,0.8);}
-#first { background: url(../img/Japanese%20Warrior%20Will%20Prevail%202.jpg) 50% 0 no-repeat fixed; background-size: cover; }
-  
-.headimage {
-  background-size: contain;
-  background-attachment: scroll;
-  background-repeat: no-repeat;
-  background-image: url(../img/across-mongolian-plains.jpg);
-  display: block;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 180px;
-}
 
-.outer {
+#first { background: url(../img/Japanese%20Warrior%20Will%20Prevail%202.jpg) 50% 0 no-repeat fixed; background-size: cover; }
+#first article { background: rgba(0,0,0,0.3);
+  color: #fff; width: 100%; margin: auto auto auto auto; padding: 10px 50px 10px 50px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); 
+}
+#first article p { margin-bottom: 25px; }
+#first article a { color: #ff0;}
+
+
+outer {
   padding: 10px 0 10px 0;
   display: block;
   vertical-align: middle;

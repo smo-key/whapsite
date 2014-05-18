@@ -13,8 +13,6 @@ function firstLoad()
   //Init Parallax effect
   var px = new Parallax.Parallax();
   px.init();
-
-  // For each element that has a data-parallax-type attribute with background acrivate Parallax Effect
   $('section[data-parallax-type="background"]').each(function(){
           var element = $(this);
           px.activateEffect(element);
