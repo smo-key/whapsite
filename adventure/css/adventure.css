@@ -68,10 +68,12 @@ h3, .h3 {
   display: block;
   left: 0px;
   top: 0px;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 1px;
+  padding-bottom: 8px;
   z-index: 9999;
 }
+#stuckheader {padding-top: 8px;
+  padding-bottom: 16px;}
 
 .story { height: 350px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; border-top: 1px solid rgba(255,255,255,0.3); border-bottom: 1px solid rgba(0,0,0,0.4); box-shadow: 0 0 50px rgba(0,0,0,0.8);}
 #first { background: url(../img/Japanese%20Warrior%20Will%20Prevail%202.jpg) 50% 0 no-repeat fixed; background-size: cover; }
