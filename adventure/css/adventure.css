@@ -66,11 +66,18 @@ h3, .h3 {
 
 /*Content Text*/
 p, .p {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 2.5em;
+  font-family: 'Bangers', cursive;
+  font-size: 4.0em;
   color: #fff;
-  line-height: 1em;
-  text-shadow: 0 3px 6px rgba(0,0,0,.5);
+  text-shadow: 0 8px 3px rgba(0,0,0,.5);
+}
+
+.btn,
+.btn:hover,
+.btn:focus {
+  text-shadow: 0 3px 6px rgba(0,0,0,.5);;
+  margin-left: 6px;
+  margin-right: 6px;
 }
 
 /***** ASSETS *****/
