@@ -6,7 +6,6 @@
 
 html,
 body {
-  height: 200%;
   background-color: #eee;
 }
 body {
@@ -157,6 +156,18 @@ outer {
   vertical-align: middle;
   position: static;
 }
+
+.footer {
+  background-color: #222;
+  display:block;
+  position: static;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+#copyright-web { color: #ccc; }
+#copyright-content { color: #ccc; }
+#credits { color: #777; }
+#noblue { color: inherit; text-decoration:underline; }
 
 /***** MEDIA QUERIES *****/
 

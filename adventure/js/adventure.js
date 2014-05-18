@@ -9,6 +9,8 @@ $(document).ready(function () {
 function firstLoad()
 {
   $("#stuckheader").stick_in_parent();
+  $("#copyright-web").text('Design Copyright © ' + new Date().getFullYear().toString() + ' Arthur Pachachura'); 
+  $("#copyright-content").text('Content Copyright © ' + new Date().getFullYear().toString() + ' Trevor Binford, John DiCarlo, Brandon Lee, and Arthur Pachachura');
   
   //Init Parallax effect
   var px = new Parallax.Parallax();
