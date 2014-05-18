@@ -99,15 +99,18 @@ p, .p {
   display: block;   
   text-align: center;
   vertical-align: middle;
-  position: relative;
+  position: absolute;
   font-weight: bold;
   top: 50%;
+  width: 100%;
   transform: translateY(-50%) translateY(-16px);
   -moz-transform: translateY(-50%) translateY(-16px);
   -webkit-transform: translateY(-50%) translateY(-16px);
   -o-transform: translateY(-50%) translateY(-16px);
   -ms-transform: translateY(-50%) translateY(-16px);
 }
+
+/*
 .slidetext-content 
 {
   padding: 20px 20px 20px 20px;
@@ -126,6 +129,7 @@ p, .p {
   position: relative;
   font-weight: bold;
 }
+*/
 
 .slide {
   left: 0px;
@@ -144,6 +148,18 @@ p, .p {
 }
 #odd { border-top: 1px solid rgba(255,255,255,0.3); border-bottom: 1px solid rgba(0,0,0,0.4); box-shadow: 0 0 50px rgba(0,0,0,0.8); }
 #even { box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
+
+.photo {
+  background: url(../img/Mongol.gif) transparent 40% 100px no-repeat fixed;
+  background-position: center;
+  background-size: 450px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  display: block;
+}
 
 .color-img {
   display: block!important;
