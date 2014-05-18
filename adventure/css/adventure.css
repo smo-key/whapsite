@@ -89,11 +89,10 @@ p, .p {
 
 #first { background: url(../img/Japanese%20Warrior%20Will%20Prevail%202.jpg) 50% 0 no-repeat fixed; background-size: cover; }
 #first article { background: rgba(0,0,0,0.3);
-  color: #fff; width: 100%; margin: auto auto auto auto; padding: 10px 50px 10px 50px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); 
+  color: #fff; width: 100%; margin: auto auto auto auto; padding: 10px 50px 10px 50px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); position: relative;
 }
 #first article p { margin-bottom: 25px; }
 #first article a { color: #ff0;}
-
 
 outer {
   padding: 10px 0 10px 0;
