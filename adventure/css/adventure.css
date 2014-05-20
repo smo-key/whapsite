@@ -103,6 +103,8 @@ p, .p {
   font-weight: bold;
   top: 50%;
   width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
   transform: translateY(-50%) translateY(-16px);
   -moz-transform: translateY(-50%) translateY(-16px);
   -webkit-transform: translateY(-50%) translateY(-16px);
@@ -115,8 +117,6 @@ p, .p {
   right: 0px;
   top: 0px;
   bottom: 0px;
-  margin: none;
-  padding: none;
   text-align: center;
   vertical-align: middle;
   background-size: cover;
@@ -135,7 +135,7 @@ p, .p {
   height: 100%;
   text-align: center;
   vertical-align: middle;
-  position: relative;
+  position: absolute;
   display: block;
 }
 
