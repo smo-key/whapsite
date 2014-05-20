@@ -110,27 +110,6 @@ p, .p {
   -ms-transform: translateY(-50%) translateY(-16px);
 }
 
-/*
-.slidetext-content 
-{
-  padding: 20px 20px 20px 20px;
-  display: block;   
-  text-align: center;
-  vertical-align: middle;
-  position: relative;
-  font-weight: bold;
-}
-.slidetext-static
-{
-  padding: 20px 20px 20px 20px;
-  display: table-cell;
-  text-align: center;
-  vertical-align: top;
-  position: relative;
-  font-weight: bold;
-}
-*/
-
 .slide {
   left: 0px;
   right: 0px;
