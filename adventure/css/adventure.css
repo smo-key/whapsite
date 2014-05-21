@@ -142,6 +142,18 @@ p, .p {
   -ms-transform: translateY(-50%) translateY(-16px);
 }
 
+.slidetext-static {
+  display: block;   
+  text-align: center;
+  vertical-align: middle;
+  position: static;
+  font-weight: bold;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 8px;
+}
+
 .slide {
   left: 0px;
   right: 0px;
