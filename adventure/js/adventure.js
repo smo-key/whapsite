@@ -1,9 +1,5 @@
 $(document).ready(function () {
   firstLoad();
-  updateContainer();
-  $(window).resize(function() {
-    updateContainer();
-  });
 });
 
 function firstLoad()
@@ -19,10 +15,14 @@ function firstLoad()
           var element = $(this);
           px.activateEffect(element);
   });
-}
-
-function updateContainer() {
-
+  //Remove down arrow on scroll
+  $(document).scroll(function() {
+    $('.scrolldown').css({display: $(this).scrollTop()>36 ? "none":"block"});
+  });
+  
+  //Animate scroll down
+  $(anim_scrolldown);
+  
 }
 
 window.requestAnimFrame = (function(){
@@ -33,6 +33,15 @@ window.requestAnimFrame = (function(){
             window.setTimeout(callback, 1000 / 60);
           };
 })();
+
+function anim_scrolldown(){
+  $('.scrolldown').animate({
+    opacity: 0.25,
+  }, 1000);
+  $('.scrolldown').animate({
+    opacity: 1,
+  }, 1000, anim_scrolldown);
+}
 
 /**
  * Parallax Scrolling Tutorial
