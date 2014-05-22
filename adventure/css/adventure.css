@@ -70,6 +70,9 @@ h5, .h5 {
   color: #fff;
 }
 
+#mg { font-family: 'Cherry Cream Soda', cursive; }
+#jp { font-family: 'Patua One', cursive; }
+
 /*Content Text*/
 p, .p {
   font-family: 'Bangers', cursive;
@@ -152,6 +155,11 @@ p, .p {
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 8px;
+}
+
+#darkened {
+  padding-top: 8px;
+  background-color: rgba(0,0,0,0.5);
 }
 
 .slide {
