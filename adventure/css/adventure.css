@@ -66,7 +66,7 @@ h3, .h3 {
 /*Content Small Text*/
 h5, .h5 {
   font-family: 'Patua One', cursive;
-  font-size: 3em;
+  font-size: 2.5em;
   color: #fff;
 }
 
@@ -105,6 +105,17 @@ p, .p {
 #stuckheader {padding-top: 8px;
   padding-bottom: 16px;}
 
+.slidetext-div
+{
+  display: block;   
+  text-align: center;
+  vertical-align: middle;
+  position: static;
+  font-weight: bold;
+  width: 100%;
+  padding-bottom: 8px;
+}
+
 .slidetext-center
 {
   display: block;   
@@ -113,7 +124,6 @@ p, .p {
   position: absolute;
   font-weight: bold;
   top: 50%;
-  width: 100%;
   padding-left: 5%;
   padding-right: 5%;
   transform: translateY(-50%) translateY(-16px);
@@ -124,15 +134,17 @@ p, .p {
 }
 
 .slidetext-static {
-  display: block;   
+  display: block;
   text-align: center;
   vertical-align: middle;
   position: static;
   font-weight: bold;
-  width: 100%;
-  padding-left: 5%;
-  padding-right: 5%;
+  margin-left:auto;
+  margin-right:auto;
   padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  max-width: 800px;
 }
 
 #darkened {
