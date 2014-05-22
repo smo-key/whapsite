@@ -63,10 +63,10 @@ h3, .h3 {
   text-shadow: 0 8px 3px rgba(0,0,0,.5);
 }
 
-/*Scroll Down Indicator*/
+/*Content Small Text*/
 h5, .h5 {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 6em;
+  font-family: 'Patua One', cursive;
+  font-size: 3em;
   color: #fff;
 }
 
