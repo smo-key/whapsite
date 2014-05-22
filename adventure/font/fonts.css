@@ -11,3 +11,10 @@
   font-weight: 400;
   src: local('Patua One'), local('PatuaOne-Regular'), url(patuaone.woff) format('woff');
 }
+
+@font-face {
+  font-family: 'Cherry Cream Soda';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cherry Cream Soda'), local('CherryCreamSoda'), url(cherrycreamsoda.woff) format('woff');
+}
