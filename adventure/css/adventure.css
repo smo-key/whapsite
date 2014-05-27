@@ -89,6 +89,10 @@ p, .p {
   margin-right: 6px;
 }
 
+.btn-default {
+  text-shadow: none;
+}
+
 /***** ASSETS *****/
 
 .header {
